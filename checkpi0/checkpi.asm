@@ -235,8 +235,8 @@ tryhighbaud		db 		22, 0, 0,"Trying 2000000...",255
 trysuccess		db		22, 0, 0,"COMMS@ ",255
 failedsup		db 		22, 1, 0,"Unable to talk to pi0",13,"Is the Pi ready?",255
 foundsup		db 		22, 1, 0,"Found Pi at above speed",13,255
-;nextpiversion	db		"nextpi-admin_version",0
-nextpiversion	db		"uname",0
+nextpiversion	db		"nextpi-admin_version",0
+;nextpiversion	db		"uname",0
 nextpiversionend
 rxsetbaud EQU 5179
 uartrxbuffer	defs	512,0
